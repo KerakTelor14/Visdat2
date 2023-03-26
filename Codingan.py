@@ -30,7 +30,7 @@ with st.expander("Eksplorasi Data"):
     st.write('Color :', option_color)
 
 bub = st.slider('Ukuran Bubble', 1, 100, 60)
-df = pd.read_csv('factbook.csv')
+df = pd.read_csv('factbook(1).csv')
 fig1 = px.scatter(df,
     x=option_x,
     y=option_y,
